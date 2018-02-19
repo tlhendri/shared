@@ -1,3 +1,8 @@
+__title__       = '7dhash'
+__version__     = '20180219.01'
+__author__      = 'T Hendricks'
+__description__ = 'Python scipt the pulls executed processes from tanium across 7 days in 7 queries'
+
 #some of these may not be needed - it is my standard set for pytan things
 import os,sys,csv,time,socket,json,getpass,pickle
 from datetime import datetime, date, time, timedelta
