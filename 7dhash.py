@@ -4,7 +4,14 @@ __author__      = 'T Hendricks'
 __description__ = 'Python scipt the pulls executed processes from tanium across 7 days in 7 queries'
 
 #some of these may not be needed - it is my standard set for pytan things
-import os,sys,csv,time,socket,json,getpass,pickle
+import os
+import sys
+import csv
+import time
+import socket
+import json
+import getpass
+import pickle
 from datetime import datetime, date, time, timedelta
 
 #for use of pytan with jupyter - otherwise your output will be found in the console
